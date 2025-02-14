@@ -36,7 +36,7 @@ public class MainActivity2 extends AppCompatActivity {
             startActivity(intent);
         });
 
-        TextView textNext = findViewById(R.id.textView2); // Use TextView here
+        TextView textNext = findViewById(R.id.textView2);
         textNext.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity2.this, MainActivity4.class);
             startActivity(intent);
